@@ -94,6 +94,6 @@ class Shop:
 s = Shop("../stock.csv")
 #print(s)
 
-c = Customer("../customer.csv")
+c = Customer("../customerA.csv")
 c.calculate_costs(s.stock)
 print(c)
