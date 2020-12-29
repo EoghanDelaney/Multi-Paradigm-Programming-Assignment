@@ -6,7 +6,7 @@ public class DiscountedProductStock extends ProductStock {
 	public DiscountedProductStock(Product product, int quantity, int threshold, double discount) {
 		super(product, quantity);
 		this.threshold = threshold;
-		this.discount = discount;
+		this.discount = 0.00;
 	}
 	
 	@Override
@@ -21,7 +21,7 @@ public class DiscountedProductStock extends ProductStock {
 	@Override
 	public double getCost(){		
 		if (getQuantity() >= threshold){
-			System.out.println("Discount applied to " + getName());
+			//System.out.println("Discount applied to " + getName());
 			return super.getCost() * (1-discount);
 		} else {
 			return super.getCost();

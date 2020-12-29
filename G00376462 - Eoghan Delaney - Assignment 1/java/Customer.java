@@ -14,7 +14,7 @@ public class Customer {
 	
 	public Customer(String fileName) {
 		shoppingList = new ArrayList<>();
-		List<String> lines = Collections.emptyList();
+		List<String> lines = Collections.emptyList  ();
 		try {
 			lines = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
 			String[] firstLine = lines.get(0).split(",");
@@ -63,7 +63,7 @@ public class Customer {
 	}
 	
 	public static void main(String[] args) {
-		Customer james = new Customer("../customer.csv");
+		Customer james = new Customer("../customerA.csv");
 		System.out.println(james);
 	}
 }
