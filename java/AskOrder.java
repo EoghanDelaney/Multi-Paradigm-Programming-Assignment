@@ -83,10 +83,6 @@ public class AskOrder {
 
 
     public static void main(String[] args) {
-        //AskOrder();
-        //ShopA shop = new ShopA("../stock.csv");
 		AskOrder james = new AskOrder("");
-		//System.out.println(james);
-        //shop.processOrder(james);
 	}
 }
