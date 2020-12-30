@@ -35,11 +35,11 @@ The project task was to build additional functionality into a base code for each
 Below is the folder structure layout given/modified as part of the project. As per the original, each language had its own sub-folder. Both C and Python have one file to run, however with the OOP approach Java - this is made up of multiple files. The Main load file in this directory is *"Menu"*. 
 
 The folder structure is also made up of four number CSV files. As requested in the brief, there are three different types of customers - one with insufficient money, one requesting more stock than the shop holds and finally the third was a clean complete transaction. These files are made up of the Customers Name, Budget and shopping lists, the Quantity of each of the products wanted. The final CSV file is made up of the Stock and Cash the Shop holds.
-<p align="center"><img align="center" src='img/FolderStruct.png' width=60%/></p>
+<p align="center"><img align="center" src='img/FolderStruct.PNG' width=60%/></p>
 
 #### User interface
 When each application is launched the users is greeted with the below menu where the user is prompted to select one of the following options.
-<p align="center"><img align="center" src='img/Menu.png' width=60%/></p>
+<p align="center"><img align="center" src='img/Menu.PNG' width=60%/></p>
 
 ## Programming Paradigms
 
