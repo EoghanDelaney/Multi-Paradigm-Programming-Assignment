@@ -198,7 +198,7 @@ struct Customer askName(){
     char n[10];
 	double a;
 	int pro;
-	char k[50];
+	char name[50];
 	int quantity;
 	fflush(stdout);
 
@@ -223,12 +223,12 @@ struct Customer askName(){
 	for(int i = 0; i < pro; i++)
 	{
 		printf("What would you like and how many?%d\n", i);
-		scanf("%5s %d", k, &quantity);
+		scanf("%5s %d", name, &quantity);
 		fflush(stdout);
 
 		//int quantity = atoi(q);
-		char *name = malloc(sizeof(char) * 50);
-		strcpy(name, k);
+		//char *name = malloc(sizeof(char) * 50);
+		//strcpy(name, k);
 		
 		double price = find(shop, name);
 		int shopQuant = findQ(shop, name);
@@ -239,11 +239,11 @@ struct Customer askName(){
 		
 		double amount = price * quantity;
 		if (quantity >= shopQuant){
-			printf("Sorry, we dont have enough %s,You want %d we only have %d, all or nothing!\n", product, quantity, shopQuant);
+			printf("Sorry, we dont have enough %s,You want %d we only have %d, all or nothing!\n", name, quantity, shopQuant);
 		}
 		else {
 			custotal += amount;
-			printf("NAME OF PRODUCT %s PRICE €%.2f QUANTITY %d\nAmount:€%.2f, SHOP has %d\n", product, price, quantity, amount, shopQuant);
+			printf("NAME OF PRODUCT %s PRICE €%.2f QUANTITY %d\nAmount:€%.2f, SHOP has %d\n", name, price, quantity, amount, shopQuant);
 		}
 	}
 	printf("Customer Total: €%.2f\n", custotal);

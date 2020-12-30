@@ -24,15 +24,15 @@ public class Menu {
     switch ( in.nextInt() ) {
       case 1:
 		
-        Customer custA = new Customer("../customerA.csv");
+        Customer custA = new Customer("../customerB.csv");
         shop.processOrder(custA);
         break;
       case 2:
-        Customer custB = new Customer("../customerB.csv");
+        Customer custB = new Customer("../customerC.csv");
         shop.processOrder(custB);
         break;
       case 3:
-        Customer custC = new Customer("../customerC.csv");
+        Customer custC = new Customer("../customerA.csv");
         //System.out.println(custC);
         shop.processOrder(custC);
         break;      
