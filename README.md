@@ -46,7 +46,7 @@ When each application is launched the users is greeted with the below menu where
 and approaching problems.'* [1] When tackling a programming problem it is best to keep in mind, the computer will do exactly what is asked of it. The paradigm is the method or approach taken when giving a set of instructions to the computer. There are two main schools of thought Imperative and Declarative. 
 
 #### Imperative & Declarative
-<p align="center"><img align="center" src='img/progParas.PNG' width=60%/></p>This image whas taken from the following source[2]
+<p align="center"><img align="center" src='img/progParas.png' width=60%/></p>This image whas taken from the following source[2]
 
 Computer hope defines Imperative programming as *'a paradigm of computer programming where the program describes steps that change the state of the computer.'* [3] while Code Burst explains Declarative as *'that expresses the logic of a computation without describing its control flow.'*[4]
 
