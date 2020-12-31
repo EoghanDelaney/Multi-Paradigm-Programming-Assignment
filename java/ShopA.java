@@ -87,6 +87,7 @@ public class ShopA {
 			System.out.println("You don't have enough money! CLEAR OFF!\n");
 		}
 	}
+
 	public void processOrderAsk(AskOrder c){
 			double costToCustomer = 0;
 			System.out.println("\u20ac");
